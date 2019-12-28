@@ -1,0 +1,10 @@
+{
+  "name": "netlify-function-test-ts",
+  "version": "1.0.0",
+  "description": "Implement Netlify functions in TypeScript",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w",
+    "serve": "netlify dev"
+  }
+}
