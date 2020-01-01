@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Implement Netlify functions in TypeScript",
   "scripts": {
+    "prebuild": "mkdir empty", // Need to have an empty directory for deploy
     "build": "tsc -p .",
     "watch": "tsc -p . -w",
     "serve": "netlify dev"
